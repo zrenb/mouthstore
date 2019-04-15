@@ -11,7 +11,7 @@
 """
 import xadmin
 from xadmin import views
-from .models import Article
+from .models import Article, ArticleCat
 
 
 # 全站配置
@@ -38,10 +38,17 @@ class ArticleAdmin(object):
     model_icon = 'fa fa-user'
     relfield_style = 'fk-ajax'
     # inlines = [LessonInline, CourseResourceInline]  ###自定定义章节及课程资源添加操作
-    # style_fields = {"detail": "ueditor"}
+    style_fields = {"content": "ueditor"}
     # import_excel = True
 
 
+class ArticleCatAdmin(object):
+    list_display = ['cat_id', 'cat_name', 'create_time']
+    search_fields = ['title']
+    list_filter = ['cat_id', 'cat_name', 'create_time']
+
+
 xadmin.site.register(Article, ArticleAdmin)  # 文章
+xadmin.site.register(ArticleCat, ArticleCatAdmin)  # 文章分类
 xadmin.site.register(views.BaseAdminView, BaseSetting)
 xadmin.site.register(views.CommAdminView, GlobalSetting)
