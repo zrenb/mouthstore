@@ -4,7 +4,7 @@ from datetime import datetime
 
 
 # Create your models here.
-class ArticleCatModel(models.Model):
+class ArticleCat(models.Model):
     cat_id = models.AutoField(primary_key=True, verbose_name="文章分类id")
     cat_name = models.CharField(max_length=20, verbose_name="分类名称")
     is_show = models.IntegerField(choices=((1, u"是"), (0, u"否")), default=0, verbose_name=u"是否显示")
@@ -19,9 +19,9 @@ class ArticleCatModel(models.Model):
         return self.cat_name
 
 
-class ArticleModel(models.Model):
+class Article(models.Model):
     ar_id = models.AutoField(primary_key=True, verbose_name="文章ID")
-    cat_id = models.ForeignKey(ArticleCatModel, on_delete=models.CASCADE, null=True, blank=True, verbose_name="文章分类")
+    cat_id = models.ForeignKey(ArticleCat, on_delete=models.CASCADE, null=True, blank=True, verbose_name="文章分类")
     title = models.CharField(max_length=100, verbose_name="文章标题")
     content = UEditorField(verbose_name=u"文章类容", width=600, height=300, imagePath="articles/ueditor",
                            filePath="articles/ueditor", default=u"")
