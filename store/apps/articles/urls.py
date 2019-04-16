@@ -11,8 +11,8 @@
 """
 from django.conf.urls import url
 
-from .views import Articles
+from .views import ArticlesView
 
 urlpatterns = [
-    url(r'info/', Articles.as_view(), name="article")
+    url(r'info/', ArticlesView.as_view(), name="article")
 ]

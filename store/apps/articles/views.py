@@ -4,6 +4,17 @@ from django.shortcuts import render
 from django.views.generic.base import View
 
 
-class Articles(View):
+
+class ArticlesView(View):
+    def get(self, request):
+
+        return render(request, 'articles/index.html')
+
+
+class IndexView(View):
+    """
+    博客首页
+    """
+
     def get(self, request):
         return render(request, 'articles/index.html')

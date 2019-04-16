@@ -19,10 +19,13 @@ from django.views.static import serve
 
 import xadmin
 from store.settings import MEDIA_ROOT
+from articles.views import IndexView
 
 urlpatterns = [
     url(r'^admin/', xadmin.site.urls),
     url(r'^media/(?P<path>.*)', serve, {'document_root': MEDIA_ROOT}),
     # 文章
-    url(r'^articles/', include('articles.urls', namespace="article"))
+    url(r'^articles/', include('articles.urls', namespace="article")),
+    # 首页
+    url(r'^$', IndexView.as_view(), name="index")
 ]
