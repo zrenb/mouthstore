@@ -44,7 +44,7 @@ class ArticleAdmin(object):
 
 class ArticleCatAdmin(object):
     list_display = ['cat_id', 'cat_name', 'create_time']
-    search_fields = ['title']
+    search_fields = ['cat_name']
     list_filter = ['cat_id', 'cat_name', 'create_time']
 
 
