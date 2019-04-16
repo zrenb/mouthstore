@@ -87,9 +87,9 @@ DATABASES = {
         'PASSWORD': 'wangsy123!!',
         'HOST': '106.12.111.83',
         'PORT': '3306',
-        'OPTIONS': {
-            "init_command": "SET foreign_key_checks = 0;",
-        }
+        # 'OPTIONS': {
+        #     "init_command": "SET foreign_key_checks = 0;",
+        # }
     }
 }
 
