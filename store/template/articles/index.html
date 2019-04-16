@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>首页-杨青青个人博客模板主题《今夕何夕》</title>
+<title>人生苦短，使用Python</title>
 <meta name="keywords" content="blog" />
 <meta name="description" content="blog" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,12 +21,11 @@
 <header id="header">
   <div class="navbox">
     <h2 id="mnavh"><span class="navicon"></span></h2>
-    <div class="logo"><a href="http://www.yangqq.com">杨青青个人博客</a></div>
+    <div class="logo"><a href="http://www.zhoujunmin.com">周军民个人博客</a></div>
     <nav>
       <ul id="starlist">
         <li><a href="index.html">首页</a></li>
-        <li><a href="list.html">个人博客日记</a></li>
-        <li class="menu"><a href="list2.html">博客网站制作</a>
+        <li class="menu"><a href="list2.html">Python</a>
           <ul class="sub">
             <li><a href="/6">推荐工具</a></li>
             <li><a href="/7">JS经典实例</a></li>
@@ -35,8 +34,11 @@
             <li><a href="/8">心得笔记</a></li>
           </ul>
           <span></span></li>
-        <li><a href="list3.html">网页设计心得</a></li>
-        <li><a href="daohang.html">优秀个人博客</a></li>
+        <li><a href="list.html">MySQL</a></li>
+
+        <li><a href="list3.html">Redis</a></li>
+        <li><a href="daohang.html">Scrapy</a></li>
+        <li><a href="daohang.html">数据分析</a></li>
         <li><a href="about.html">关于我</a></li>
       </ul>
     </nav>
@@ -63,10 +65,10 @@
     <div class="banbox">
       <div class="banner">
         <div id="banner" class="fader">
-          <li class="slide" ><a href="/" target="_blank"><img src="images/1.jpg"></a></li>
-          <li class="slide" ><a href="/" target="_blank"><img src="images/2.jpg"></a></li>
-          <li class="slide" ><a href="/" target="_blank"><img src="images/3.jpg"></a></li>
-          <li class="slide" ><a href="/" target="_blank"><img src="images/4.jpg"></a></li>
+          <li class="slide" ><a href="/" target="_blank"><img src="{% static 'images/1.jpg' %}"></a></li>
+          <li class="slide" ><a href="/" target="_blank"><img src="{% static 'images/2.jpg' %}"></a></li>
+          <li class="slide" ><a href="/" target="_blank"><img src="{% static 'images/3.jpg' %}"></a></li>
+          <li class="slide" ><a href="/" target="_blank"><img src="{% static 'images/4.jpg' %}"></a></li>
           <div class="fader_controls">
             <div class="page prev" data-target="prev"></div>
             <div class="page next" data-target="next"></div>
@@ -80,8 +82,8 @@
     <!--headline begin-->
     <div class="headline">
       <ul>
-        <li><a href="/" title="为什么说10月24日是程序员的节日？"><img src="images/h1.jpg" alt="为什么说10月24日是程序员的节日？"><span>为什么说10月24日是程序员的节日？</span></a></li>
-        <li><a href="/" title="个人网站做好了，百度不收录怎么办？来，看看他们怎么做的"><img src="images/h2.jpg" alt="个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。"><span>个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。</span></a></li>
+        <li><a href="/" title="为什么说10月24日是程序员的节日？"><img src="{% static 'images/h1.jpg' %}" alt="为什么说10月24日是程序员的节日？"><span>为什么说10月24日是程序员的节日？</span></a></li>
+        <li><a href="/" title="个人网站做好了，百度不收录怎么办？来，看看他们怎么做的"><img src="{% static 'images/h2.jpg' %}" alt="个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。"><span>个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。</span></a></li>
       </ul>
     </div>
     <!--headline end-->
@@ -225,18 +227,18 @@
       </div>
     </div>
     <!--tab_box end-->
-    <div class="zhuanti whitebg">
-      <h2 class="htitle"><span class="hnav"><a href="/">原创模板</a><a href="/">古典</a><a href="/">清新</a><a href="/">低调</a></span>精彩专题</h2>
-      <ul>
-        <li> <i class="ztpic"><a href="/" target="_blank"><img src="images/1.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="" target="_blank" class="readmore">文章阅读</a> </li>
-        <li> <i class="ztpic"><a href="/" target="_blank"><img src="images/2.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="" target="_blank" class="readmore">文章阅读</a> </li>
-        <li> <i class="ztpic"><a href="/" target="_blank"><img src="images/3.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="" target="_blank" class="readmore">文章阅读</a> </li>
-        <li> <i class="ztpic"><a href="/" target="_blank"><img src="images/4.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="" target="_blank" class="readmore">文章阅读</a> </li>
-        <li> <i class="ztpic"><a href="/" target="_blank"><img src="images/h2.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="" target="_blank" class="readmore">文章阅读</a> </li>
-        <li> <i class="ztpic"><a href="/" target="_blank"><img src="images/h1.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="" target="_blank" class="readmore">文章阅读</a> </li>
-      </ul>
-    </div>
-    <div class="ad whitebg"> <img src="images/longad.jpg"> </div>
+{#    <div class="zhuanti whitebg">#}
+{#      <h2 class="htitle"><span class="hnav"><a href="/">原创模板</a><a href="/">古典</a><a href="/">清新</a><a href="/">低调</a></span>精彩专题</h2>#}
+{#      <ul>#}
+{#        <li> <i class="ztpic"><a href="/" target="_blank"><img src="images/1.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="" target="_blank" class="readmore">文章阅读</a> </li>#}
+{#        <li> <i class="ztpic"><a href="/" target="_blank"><img src="images/2.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="" target="_blank" class="readmore">文章阅读</a> </li>#}
+{#        <li> <i class="ztpic"><a href="/" target="_blank"><img src="images/3.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="" target="_blank" class="readmore">文章阅读</a> </li>#}
+{#        <li> <i class="ztpic"><a href="/" target="_blank"><img src="images/4.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="" target="_blank" class="readmore">文章阅读</a> </li>#}
+{#        <li> <i class="ztpic"><a href="/" target="_blank"><img src="images/h2.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="" target="_blank" class="readmore">文章阅读</a> </li>#}
+{#        <li> <i class="ztpic"><a href="/" target="_blank"><img src="images/h1.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="" target="_blank" class="readmore">文章阅读</a> </li>#}
+{#      </ul>#}
+{#    </div>#}
+    <div class="ad whitebg"> <img src="{% static 'images/longad.jpg' %}"> </div>
     <div class="whitebg bloglist">
       <h2 class="htitle">最新博文</h2>
       <ul>

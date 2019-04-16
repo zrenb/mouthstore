@@ -6,6 +6,10 @@ from datetime import datetime
 # Create your models here.
 class ArticleCat(models.Model):
     cat_id = models.AutoField(primary_key=True, verbose_name="文章分类id")
+    parent = models.ForeignKey('self', default=0, null=True, blank=True, related_name='children', verbose_name='上级分类',
+                               limit_choices_to={'is_abort': False, 'is_root': True})
+    is_root = models.BooleanField(default=False, verbose_name='是否是一级分类')
+    is_abort = models.BooleanField(default=False, verbose_name='是否删除')
     cat_name = models.CharField(max_length=20, verbose_name="分类名称")
     is_show = models.IntegerField(choices=((1, u"是"), (0, u"否")), default=0, verbose_name=u"是否显示")
     create_time = models.DateTimeField(default=datetime.now, verbose_name="添加时间")

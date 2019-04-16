@@ -131,8 +131,8 @@ USE_TZ = True
 # 静态文件管理
 STATIC_URL = '/static/'
 # 本地静态文件配置
-# STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
+STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 # 线上静态文件配置
-STATIC_ROOT = os.path.join(BASE_DIR, "static/")
+# STATIC_ROOT = os.path.join(BASE_DIR, "static/")
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
