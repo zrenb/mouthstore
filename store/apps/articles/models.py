@@ -7,7 +7,7 @@ from datetime import datetime
 class ArticleCat(models.Model):
     cat_id = models.AutoField(primary_key=True, verbose_name="文章分类id")
     cat_name = models.CharField(max_length=20, verbose_name="分类名称")
-    cat_image = models.ImageField(upload_to="cat/%Y/%m%d", max_length=100, verbose_name="分类图片", default="", blank=True)
+    # cat_image = models.ImageField(upload_to="cat/%Y/%m%d", max_length=100, verbose_name="分类图片", default="", blank=True)
     is_show = models.IntegerField(choices=((1, u"是"), (0, u"否")), default=0, verbose_name=u"是否显示")
     create_time = models.DateTimeField(default=datetime.now, verbose_name="添加时间")
 

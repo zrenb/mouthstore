@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="679789cd-68e6-4f2b-8c73-b8ef43bc5483" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/apps/articles/migrations/0002_remove_articlecat_cat_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/articles/migrations/0003_articlecat_cat_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/articles/migrations/0004_remove_articlecat_cat_image.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/articles/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/articles/adminx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/articles/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/articles/migrations/0002_auto_20190416_1641.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/articles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/articles/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/articles/adminx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="45" column="67" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="67" />
+            <state relative-caret-position="28">
+              <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
               <folding>
                 <element signature="e#301#314#0" expanded="true" />
               </folding>
@@ -69,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/articles/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="9" column="118" selection-start-line="9" selection-start-column="118" selection-end-line="9" selection-end-column="118" />
+            <state relative-caret-position="104">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -189,12 +190,6 @@
               <item name="store" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="cat" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -268,17 +263,17 @@
       <option name="presentableId" value="Default" />
       <updated>1555304948251</updated>
       <workItem from="1555304949835" duration="14418000" />
-      <workItem from="1555398122246" duration="7509000" />
+      <workItem from="1555398122246" duration="8382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21927000" />
+    <option name="totallyTimeSpent" value="22800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23600605" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23600605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -291,7 +286,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="manage.py@store" order="10" visible="true" weight="0.37806875" />
+      <window_info active="true" anchor="bottom" id="manage.py@store" order="10" visible="true" weight="0.37806875" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.41243863" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3289689" />
@@ -419,8 +414,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/articles/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="45" column="67" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="67" />
+        <state relative-caret-position="28">
+          <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
           <folding>
             <element signature="e#301#314#0" expanded="true" />
           </folding>
@@ -429,8 +424,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/articles/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="9" column="118" selection-start-line="9" selection-start-column="118" selection-end-line="9" selection-end-column="118" />
+        <state relative-caret-position="104">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
