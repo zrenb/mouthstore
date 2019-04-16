@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    # 'django.middleware.csrf.CsrfViewMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -87,9 +87,9 @@ DATABASES = {
         'PASSWORD': 'wangsy123!!',
         'HOST': '106.12.111.83',
         'PORT': '3306',
-        # 'OPTIONS': {
-        #     "init_command": "SET foreign_key_checks = 0;",
-        # }
+        'OPTIONS': {
+            "init_command": "SET foreign_key_checks = 0;",
+        }
     }
 }
 

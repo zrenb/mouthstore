@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="679789cd-68e6-4f2b-8c73-b8ef43bc5483" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,14 +29,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/store/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+            <state relative-caret-position="70">
+              <caret line="35" selection-start-line="35" selection-end-line="37" />
               <folding>
                 <element signature="e#309#318#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/auth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4342">
+              <caret line="67" column="30" lean-forward="true" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -66,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/articles/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="650">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -94,10 +102,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store/urls.py">
+        <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+            <state relative-caret-position="286">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/chart.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3175">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -173,20 +190,20 @@
             <path>
               <item name="store" type="b2602c69:ProjectViewProjectNode" />
               <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="store" type="b2602c69:ProjectViewProjectNode" />
               <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="articles" type="462c0819:PsiDirectoryNode" />
+              <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
+              <item name="xadmin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="store" type="b2602c69:ProjectViewProjectNode" />
               <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="articles" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="extra_apps" type="462c0819:PsiDirectoryNode" />
+              <item name="xadmin" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,23 +278,23 @@
       <option name="presentableId" value="Default" />
       <updated>1555304948251</updated>
       <workItem from="1555304949835" duration="14418000" />
-      <workItem from="1555398122246" duration="9777000" />
+      <workItem from="1555398122246" duration="12280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24195000" />
+    <option name="totallyTimeSpent" value="26698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23600605" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17776097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47463176" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.049099836" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -360,13 +377,6 @@
     <entry file="file://$PROJECT_DIR$/static/css/m.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/ueditor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/store/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -425,16 +435,6 @@
         <state relative-caret-position="-1120" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/articles/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/articles/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -445,13 +445,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apps/articles/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/store/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+        <state relative-caret-position="70">
+          <caret line="35" selection-start-line="35" selection-end-line="37" />
           <folding>
             <element signature="e#309#318#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4342">
+          <caret line="67" column="30" lean-forward="true" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/ueditor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/chart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3175">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
         </state>
       </provider>
     </entry>
